@@ -116,6 +116,9 @@ body {
   margin-top: 25px;
   transition: all 0.3s linear;
   vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 .button:hover {
   background-color: #108d55;
