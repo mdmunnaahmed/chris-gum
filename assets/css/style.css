@@ -101,8 +101,10 @@ body {
 }
 
 .button {
+  display: block;
   text-align: center;
   height: 66px;
+  line-height: 66px;
   background-color: #20a367;
   font-family: "Gotham Medium", sans-serif;
   font-weight: 500;
@@ -210,6 +212,7 @@ input[type="checkbox"]:checked:before {
   }
   .button {
     height: 60px;
+    line-height: 60px;
   }
 }
 @media (max-width: 1200px) {
@@ -238,6 +241,7 @@ input[type="checkbox"]:checked:before {
   }
   .button {
     height: 50px;
+    line-height: 50px;
   }
 }
 @media (max-width: 600px) {
@@ -264,9 +268,6 @@ input[type="checkbox"]:checked:before {
     height: 50px;
     padding-inline: 20px;
     font-size: 16px;
-  }
-  .button {
-    height: 50px;
   }
 }
 /* responsive css */
