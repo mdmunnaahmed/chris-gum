@@ -101,7 +101,6 @@ body {
 }
 
 .button {
-  display: block;
   text-align: center;
   height: 66px;
   line-height: 66px;
@@ -116,6 +115,7 @@ body {
   color: white;
   margin-top: 25px;
   transition: all 0.3s linear;
+  vertical-align: middle;
 }
 .button:hover {
   background-color: #108d55;
