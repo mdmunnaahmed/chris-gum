@@ -20,7 +20,8 @@
 }
 a,
 label,
-img {
+img,
+span {
   display: inline-block;
   line-height: 1;
 }
@@ -103,7 +104,6 @@ body {
 .button {
   text-align: center;
   height: 66px;
-  line-height: 66px;
   background-color: #20a367;
   font-family: "Gotham Medium", sans-serif;
   font-weight: 500;
