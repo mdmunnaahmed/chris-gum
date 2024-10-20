@@ -121,7 +121,6 @@ body {
 .form-group {
   border-color: #108d55;
   display: flex;
-  align-items: center;
   margin-top: 14px;
 }
 input[type="checkbox"] {
@@ -151,8 +150,10 @@ input[type="checkbox"]:before {
 input[type="checkbox"]:checked:before {
   color: #20a367 !important;
 }
-label {
+.form-group label {
   color: #4c4c4c;
+  line-height: 1;
+  transform: translateY(5.7px);
 }
 /* form related css */
 
