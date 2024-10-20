@@ -22,6 +22,7 @@ a,
 label,
 img {
   display: inline-block;
+  line-height: 1;
 }
 body {
   font-size: 16px;
@@ -68,15 +69,38 @@ body {
   height: 70px;
   border-radius: 10px;
   border: var(--stroke-weight-1, 1px) solid #20a367;
+  color: #000000;
   background: #f9f9f9;
   outline: none !important;
   box-shadow: none !important;
   padding-inline: 43px;
   margin-bottom: 10px;
 }
+/* For Chrome, Safari, and Opera */
 .form-control::-webkit-input-placeholder {
   color: #b0b0b0;
 }
+
+/* For Firefox */
+.form-control::-moz-placeholder {
+  color: #b0b0b0;
+}
+
+/* For Internet Explorer 10-11 */
+.form-control:-ms-input-placeholder {
+  color: #b0b0b0;
+}
+
+/* For Edge */
+.form-control::-ms-input-placeholder {
+  color: #b0b0b0;
+}
+
+/* For modern browsers */
+.form-control::placeholder {
+  color: #b0b0b0;
+}
+
 .button {
   text-align: center;
   height: 66px;
