@@ -143,12 +143,14 @@ label {
   font-family: "Gotham Medium", sans-serif;
   font-weight: 500;
   font-size: 42px;
+  line-height: 1.1;
   text-transform: uppercase;
   margin-top: 40px;
 }
 .main-wrapper-inner .left-content .subtitle {
   font-family: "Gotham", sans-serif;
   font-weight: 400;
+  line-height: 1.1;
   margin-top: 25px;
   margin-bottom: 21px;
 }
