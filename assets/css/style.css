@@ -243,8 +243,22 @@ input[type="checkbox"]:checked:before {
   .button {
     height: 50px;
   }
+  .right-img::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 490px;
+    background: linear-gradient(123deg, #6a51a5 29.07%, #5d4693 100.04%);
+    right: 0;
+    top: 0;
+    z-index: -1;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  }
 }
 @media (max-width: 600px) {
+  .right-img::before {
+    height: 80vw;
+  }
   .main-wrapper-inner {
     padding: 30px 20px 50px;
     flex-direction: column-reverse;
